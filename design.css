@@ -22,13 +22,14 @@ body {
 }
 
 .heading {
+    color: black;
     font-size: 1.7rem;
     text-align: center;
 }
 
 .description {
+    font-weight: bolder;
     padding: 0.4rem;
-    ;
     color: #475569;
     font-size: 1.1rem;
     opacity: 0.7;
