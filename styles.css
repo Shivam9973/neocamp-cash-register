@@ -1,5 +1,5 @@
 :root {
-    --bg: #BFDBFE;
+    --bg: #e7e8d1;
 }
 
 * {
@@ -12,8 +12,8 @@ body {
     padding: 2rem;
     padding-left: 30%;
     padding-right: 30%;
-    background-color: var(--bg);
-    color: #475569;
+    background-color: #475569;
+    color: #e7e8d1;
 }
 
 .container {
@@ -22,23 +22,26 @@ body {
 }
 
 .heading {
-    color: black;
-    font-size: 1.7rem;
+    color: #e7e8d1;
     text-align: center;
+    font-size: xx-large;
 }
 
 .description {
+    font-size: xx-large;
     font-weight: bolder;
     padding: 0.4rem;
-    color: #475569;
+    color: #e7e8d1;
     font-size: 1.1rem;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     text-align: center;
 }
 
 label {
+    font-weight: bolder;
     margin: 5%;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: x-large;
 }
 
 input {
@@ -49,11 +52,13 @@ input {
     margin: auto;
     height: 2rem;
     font-size: 1.5rem;
-    background-color: whitesmoke;
-    color: var(--bg);
+    background-color: #475569;
+    color: #e7e8d1;
 }
 
 #check-button {
+    font-size: x-large;
+    color: #e7e8d1;
     font-weight: bolder;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -61,9 +66,9 @@ input {
     padding: 0.7rem 0.3rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    background-color: #475569;
     border-radius: 0.5rem;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     display: block;
     cursor: pointer;
 }
@@ -74,7 +79,9 @@ div {
 
 .change-table {
     width: fit-content;
-    border: 0.05rem solid bisque;
+    /* border: 0.05rem solid bisque; */
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 .no-of-notes,
@@ -85,6 +92,7 @@ th {
     background-color: #475569;
     color: var(--bg);
     font-size: large;
+    margin: auto;
 }
 
 .title-color {
@@ -98,6 +106,7 @@ th {
 
 .list-non-bullet {
     list-style: none;
+    font-weight: bolder;
 }
 
 .list-item-inline {
@@ -106,7 +115,7 @@ th {
 }
 
 .footer {
-    background-color: black;
+    background-color: #475569;
     color: var(--bg);
     padding: 2rem 1rem;
     text-align: center;
@@ -128,7 +137,12 @@ th {
 
 .footer .footer-header {
     font-weight: bolder;
-    font-size: large;
+    font-size: x-large;
     color: var(--bg);
     padding-top: 1rem;
+}
+
+.error-message {
+    font-weight: bold;
+    font-size: x-large;
 }
